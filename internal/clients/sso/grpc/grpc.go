@@ -16,7 +16,6 @@ import (
 
 type Client struct {
 	api ssov1.AuthClient
-	log *slog.Logger
 }
 
 func New(
